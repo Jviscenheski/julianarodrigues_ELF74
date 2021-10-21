@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iarUserArgVars>
+    <group name="var" active="true">
+        <variable>
+            <name>$PROJ_DIR$</name>
+            <value>C:\Users\Juliana\Desktop\Engenharia\Sistemas embarcados\julianarodrigues_ELF74</value>
+        </variable>
+    </group>
+</iarUserArgVars>
