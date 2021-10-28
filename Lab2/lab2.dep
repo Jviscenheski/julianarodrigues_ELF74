@@ -5,84 +5,84 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\src\system_TM4C1294.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\Source\startup_TM4C1294.o.rsp</file>
-            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\inc\hw_memmap.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\src\cmsis_iccarm.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\ewarm\Exe\driverlib.a</file>
-            <file>$PROJ_DIR$\src\blinky.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$PROJ_DIR$\src\startup_TM4C1294.s</file>
-            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C1294NC.icf</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\src\cmsis_version.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Source\startup_TM4C1294.o</file>
-            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\pin_map.h</file>
-            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\Source\blinky.o</file>
-            <file>$PROJ_DIR$\src\system_TM4C1294.h</file>
-            <file>$PROJ_DIR$\src\core_cm4.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
-            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\gpio.h</file>
-            <file>$PROJ_DIR$\Debug\List\lab2.map</file>
-            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\debug.h</file>
-            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\interrupt.h</file>
-            <file>$PROJ_DIR$\src\cmsis_compiler.h</file>
-            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\systick.h</file>
-            <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_nc.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\Source\system_TM4C1294.o</file>
-            <file>$PROJ_DIR$\src\TM4C1294NCPDT.h</file>
+            <file>$PROJ_DIR$\src\cmsis_version.h</file>
             <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\inc\hw_gpio.h</file>
             <file>$PROJ_DIR$\Debug\Exe\lab2.out</file>
+            <file>$PROJ_DIR$\src\core_cm4.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Source\blinky.o</file>
+            <file>$PROJ_DIR$\src\system_TM4C1294.h</file>
             <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\inc\hw_types.h</file>
+            <file>$PROJ_DIR$\src\TM4C1294NCPDT.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_nc.a</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\debug.h</file>
+            <file>$PROJ_DIR$\src\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\pin_map.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Source\system_TM4C1294.o</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\gpio.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\interrupt.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
             <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Source\startup_TM4C1294.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h</file>
+            <file>$PROJ_DIR$\Debug\List\lab2.map</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\systick.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\ewarm\Exe\driverlib.a</file>
+            <file>$PROJ_DIR$\src\blinky.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Source\startup_TM4C1294.o.rsp</file>
+            <file>$PROJ_DIR$\src\startup_TM4C1294.s</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\inc\hw_memmap.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\src\system_TM4C1294.c</file>
+            <file>$PROJ_DIR$\src\cmsis_iccarm.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C1294NC.icf</file>
         </outputs>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\lab2.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 40 18 10 35 20 0 29 6 23 14</file>
+                </tool>
+            </inputs>
+        </file>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 28 37</file>
+                    <file> 26 4</file>
                 </tool>
             </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\src\system_TM4C1294.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 34</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 15 3 13 26 39 17 21 35 31 4 14 25 24</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\src\blinky.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 23</file>
+                    <file> 6</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 15 3 13 9 39 5 17 40 21 29 27 30 19 20 32 36 2 38</file>
+                    <file> 28 33 24 39 16 36 1 22 19 11 15 17 13 25 27 3 34 8</file>
                 </tool>
             </inputs>
         </file>
@@ -91,28 +91,28 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 18</file>
+                    <file> 23</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 1</file>
+                    <file> 31</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Debug\Exe\lab2.out</name>
+            <name>$PROJ_DIR$\src\system_TM4C1294.c</name>
             <outputs>
                 <tool>
-                    <name>ILINK</name>
-                    <file> 28</file>
+                    <name>ICCARM</name>
+                    <file> 14</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ILINK</name>
-                    <file> 11 16 33 6 22 12 7 23 18 34</file>
+                    <name>ICCARM</name>
+                    <file> 28 33 24 21 16 1 19 9 12 38 2 5 7</file>
                 </tool>
             </inputs>
         </file>
