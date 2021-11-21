@@ -6,15 +6,21 @@
         <name>Debug</name>
         <outputs>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\ewarm\Exe\driverlib.a</file>
-            <file>$PROJ_DIR$\..\Lab3\main.cpp</file>
-            <file>$PROJ_DIR$\..\Lab3\histogram.s</file>
-            <file>$PROJ_DIR$\..\Lab2\src\blinky.c</file>
+            <file>$PROJ_DIR$\src\system_TM4C1294.c</file>
             <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\src\main.c</file>
-            <file>$PROJ_DIR$\src\system_TM4C1294.c</file>
-            <file>$PROJ_DIR$\src\startup_TM4C1294.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\src\system_TM4C1294.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\src\main.o</file>
         </outputs>
+        <file>
+            <name>$PROJ_DIR$\src\system_TM4C1294.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4</file>
+                </tool>
+            </outputs>
+        </file>
         <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
@@ -24,17 +30,26 @@
                 </tool>
             </outputs>
         </file>
+        <file>
+            <name>$PROJ_DIR$\src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+        </file>
         <forcedrebuild>
-            <name>[MULTI_TOOL]</name>
-            <tool>ILINK</tool>
+            <name>$PROJ_DIR$\src\system_TM4C1294.c</name>
+            <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>
             <name>$PROJ_DIR$\src\main.c</name>
             <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>
-            <name>$PROJ_DIR$\src\system_TM4C1294.c</name>
-            <tool>ICCARM</tool>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
         </forcedrebuild>
         <forcedrebuild>
             <name>[REBUILD_ALL]</name>
