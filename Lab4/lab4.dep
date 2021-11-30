@@ -6,21 +6,12 @@
         <name>Debug</name>
         <outputs>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\src\system_TM4C1294.c</file>
             <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\src\main.c</file>
             <file>$PROJ_DIR$\Debug\Obj\src\system_TM4C1294.o</file>
+            <file>$PROJ_DIR$\src\main.c</file>
+            <file>$PROJ_DIR$\src\system_TM4C1294.c</file>
             <file>$PROJ_DIR$\Debug\Obj\src\main.o</file>
         </outputs>
-        <file>
-            <name>$PROJ_DIR$\src\system_TM4C1294.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 4</file>
-                </tool>
-            </outputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
@@ -39,12 +30,21 @@
                 </tool>
             </outputs>
         </file>
-        <forcedrebuild>
+        <file>
             <name>$PROJ_DIR$\src\system_TM4C1294.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\src\main.c</name>
             <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>
-            <name>$PROJ_DIR$\src\main.c</name>
+            <name>$PROJ_DIR$\src\system_TM4C1294.c</name>
             <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>
